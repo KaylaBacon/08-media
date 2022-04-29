@@ -1,0 +1,451 @@
+{box-sizing: border-box;}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 100; 
+    background-color: dimgray;
+}
+
+.learn{
+   font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 100; 
+    background-color: black; 
+}
+
+/* Start Header styling. */
+
+header { 
+    background-color: #ff99ac;
+    padding: 1px;
+    margin: -10px;
+    max-width: 100%;
+}
+
+.header1 {
+    color:black;
+    font-size: 50px;
+    margin: 15px;
+   text-align: center;
+       
+}
+
+main{
+      max-width: 100%;
+    margin: auto;
+}
+.footer{
+      max-width: 100%;
+}
+
+.pheader{
+    color:white;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+form label,
+form label > span {
+    display: block;
+}
+
+::placeholder {
+    color: black;
+}
+
+.multi-option-input,
+form label {
+    margin: 15px 2%;
+}
+
+form {
+    margin: 0 4%;
+}
+
+fieldset {
+    margin: 30px 0;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.logo{
+margin-top: -120px;
+    display: flex;
+  justify-content: space-around;
+float: left; 
+margin-left: 20px;
+  }
+
+textarea, 
+input[type=text],
+input[type=tel], 
+input[type=email], 
+select  {
+    color: white;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: pink;
+    border-width: 1px;
+    width: 50%;
+}
+
+legend {
+    font-size: 25px;
+    font-family: 'Playball';
+}
+
+.multi-option-input label {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.multi-option-input input[type=radio],
+.multi-option-input input[type=checkbox] {
+    font-size: 1em;
+}
+
+.multi-option-input > .user-prompt {
+    margin-bottom: 6px;
+    display: block;
+}
+
+textarea {
+    min-height: 8em;
+}
+
+.submit-button {
+    background-color: pink;
+    background-color: pink;
+
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border-color: pink;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.submit-button:hover {
+    background-color:deeppink;
+    color: white;
+    transition: 300ms;
+} 
+
+
+
+#kayla-photo{
+
+}
+/* End Header styling. */
+
+
+/* Start navigation bar styling. */
+
+#nav {
+    margin-left: -8px;
+    padding: 0px;
+    background-color: black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+      max-width: 100%;
+    }
+
+#nav li {
+list-style: none;
+display:inline;
+}
+
+
+#nav li a {
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 48px;
+    text-align:center;
+    color: white;}
+
+#nav li a:visited {
+    color: pink;}
+
+#nav li a:hover {
+    color: white;
+    text-align:center;
+    background-color: pink;
+    border-radius: 10px;
+}
+    /* End navigation bar styling. */
+
+h2{
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.links a{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+ 
+}
+.link a{
+    color:white;
+    font-size: 25px;
+    width: 200px;
+    margin-left: 350px;
+    text-decoration: none;
+    margin-bottom: -11px;
+    padding: 10px;
+    display: block;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+
+
+p{
+    color: white;
+}
+/* Lists styling Start */
+
+.ol{ list-style-type: georgian;
+    color: white;
+    padding: 20px;
+    border-color: #ff99ac;
+    border-radius: 10px;
+    
+}
+
+.dl{;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.ul{
+    color: white;
+    padding: 20px;
+    list-style-type: square;
+    margin: 10px;;
+    border-radius: 10px;
+}
+
+.dt{  font-weight: bold;
+    font-size: 20px;
+    color: white;
+   
+}
+.dd{
+    text-decoration:underline;
+}
+
+.footer{
+   background-image:  linear-gradient(to right, pink, black);
+    padding: 10px;
+    clear: both;
+}
+
+
+/* Gallery Start */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    border: double 10px rgb(21,92,111);
+    border-radius: 10px;
+    background-color: #ff99ac;
+    margin: 60px 4% 100px 4%;
+    padding: 20px 2%;
+
+}
+
+.myGallery {
+    border: solid black;
+    margin: 20px 2%;
+    padding: 10px;
+    background-color: #ff99ac;
+    background-color: #ff99ac;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.myGallery img {
+    width: 200px;
+ 
+}
+
+.myGallery img:hover{
+        -webkit-box-shadow: 5px 10px;
+    box-shadow: 5px 10px;
+}
+
+.myGallery figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.myGallery figcaption span {
+    display: block;
+}
+
+.name {
+    font-size: 16px;
+    text-align: center;
+}
+.work-title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.myGallery > figure {
+    padding: 0;
+    margin: 0;
+}
+
+
+.callout{
+    color:white;
+      background-color: black;
+    height: 50vh;
+    margin-top:20px;
+ 
+}
+
+.tulips{
+    float: right;
+    margin-top: -190px;
+    margin-right: 200px;
+}
+
+.text{
+    font-size: 24px;
+   padding-top: 20px;
+    padding-left: 200px;
+}
+
+
+
+
+@media only screen and (max-width 600px){
+    nav u;{
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    nav a {
+        display: block;
+        padding .8rem;
+        text-decoration: none;
+        font-weight: 300;
+text-align: center;
+        border-bottom:solid 2px white;}
+        
+        nav .active a
+    { background-color: white;
+        color: black;}
+    
+    
+}
+
+
+
+@media only screen and (max-width 601px){
+  #nav {
+    margin-left: -8px;
+    padding: 0px;
+    background-color: black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+      max-width: 100%;
+    }
+
+#nav li {
+list-style: none;
+display:inline;
+}
+
+
+#nav li a {
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 48px;
+    text-align:center;
+    color: white;}
+
+#nav li a:visited {
+    color: pink;}
+
+#nav li a:hover {
+    color: white;
+    text-align:center;
+    background-color: pink;
+    border-radius: 10px;
+}  
+}
+
+
+.googlemaps{
+   text-align: center;
+}
+
+
+
+.table{
+    border-radius: 10px;
+    border: solid 2px pink;
+    box-shadow: 10px 5px 20px gray;
+}
+.pricing {
+    border-collapse: collapse;
+    font-size: 15px;
+    width: 100%
+}
+.pricing th {
+    text-align: left;
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: .5rem 45px .5rem 10px;
+}
+
+.pricing td {
+    padding: .5rem 45px .5rem 15px;
+}
+
+.pricing tr:nth-child(even) {
+    background-color: grey;
+}
+
+.pricing tr:nth-child(odd) {
+    background-color: white;
+
+}
+
+
+.pricing tr:hover {
+    background-color: deeppink;
+    color: white;
+    transition: 100ms;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
